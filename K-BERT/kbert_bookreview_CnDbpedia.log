@@ -1,0 +1,145 @@
+Vocabulary file line 344 has bad format token
+Vocabulary Size:  21128
+[BertClassifier] use visible_matrix: True
+[KnowledgeGraph] Loading spo from /home/nise/K-BERT/brain/kgs/CnDbpedia.spo
+Start training.
+Loading sentences from ./datasets/book_review/train.tsv
+There are 20000 sentence in total. We use 1 processes to inject knowledge into sentences.
+Progress of process 0: 0/20000
+Progress of process 0: 10000/20000
+Shuffling dataset
+Trans data to tensor.
+input_ids
+label_ids
+mask_ids
+pos_ids
+vms
+Batch size:  32
+The number of training instances: 20000
+Epoch id: 1, Training steps: 100, Avg loss: 0.563
+Epoch id: 1, Training steps: 200, Avg loss: 0.383
+Epoch id: 1, Training steps: 300, Avg loss: 0.378
+Epoch id: 1, Training steps: 400, Avg loss: 0.359
+Epoch id: 1, Training steps: 500, Avg loss: 0.339
+Epoch id: 1, Training steps: 600, Avg loss: 0.322
+Start evaluation on dev dataset.
+Loading sentences from ./datasets/book_review/dev.tsv
+There are 10000 sentence in total. We use 1 processes to inject knowledge into sentences.
+Progress of process 0: 0/10000
+run_kbert_cls.py:357: DeprecationWarning: In future, it will be an error for 'np.bool_' scalars to be interpreted as an index
+  vms_batch = torch.LongTensor(vms_batch)
+Label 0: 0.865, 0.890, 0.877
+Label 1: 0.877, 0.850, 0.864
+Acc. (Correct/Total): 0.8708 (8708/10000) 
+Start evaluation on test dataset.
+Loading sentences from ./datasets/book_review/test.tsv
+There are 10000 sentence in total. We use 1 processes to inject knowledge into sentences.
+Progress of process 0: 0/10000
+The number of evaluation instances:  10000
+Confusion matrix:
+tensor([[4505,  750],
+        [ 605, 4140]])
+Report precision, recall, and f1:
+Label 0: 0.857, 0.882, 0.869
+Label 1: 0.872, 0.847, 0.859
+Acc. (Correct/Total): 0.8645 (8645/10000) 
+Epoch id: 2, Training steps: 100, Avg loss: 0.379
+Epoch id: 2, Training steps: 200, Avg loss: 0.222
+Epoch id: 2, Training steps: 300, Avg loss: 0.204
+Epoch id: 2, Training steps: 400, Avg loss: 0.176
+Epoch id: 2, Training steps: 500, Avg loss: 0.178
+Epoch id: 2, Training steps: 600, Avg loss: 0.179
+Start evaluation on dev dataset.
+Loading sentences from ./datasets/book_review/dev.tsv
+There are 10000 sentence in total. We use 1 processes to inject knowledge into sentences.
+Progress of process 0: 0/10000
+Label 0: 0.853, 0.922, 0.886
+Label 1: 0.908, 0.829, 0.867
+Acc. (Correct/Total): 0.8771 (8771/10000) 
+Start evaluation on test dataset.
+Loading sentences from ./datasets/book_review/test.tsv
+There are 10000 sentence in total. We use 1 processes to inject knowledge into sentences.
+Progress of process 0: 0/10000
+The number of evaluation instances:  10000
+Confusion matrix:
+tensor([[4635,  853],
+        [ 475, 4037]])
+Report precision, recall, and f1:
+Label 0: 0.845, 0.907, 0.875
+Label 1: 0.895, 0.826, 0.859
+Acc. (Correct/Total): 0.8672 (8672/10000) 
+Epoch id: 3, Training steps: 100, Avg loss: 0.209
+Epoch id: 3, Training steps: 200, Avg loss: 0.119
+Epoch id: 3, Training steps: 300, Avg loss: 0.110
+Epoch id: 3, Training steps: 400, Avg loss: 0.082
+Epoch id: 3, Training steps: 500, Avg loss: 0.084
+Epoch id: 3, Training steps: 600, Avg loss: 0.101
+Start evaluation on dev dataset.
+Loading sentences from ./datasets/book_review/dev.tsv
+There are 10000 sentence in total. We use 1 processes to inject knowledge into sentences.
+Progress of process 0: 0/10000
+Label 0: 0.870, 0.911, 0.890
+Label 1: 0.899, 0.853, 0.875
+Acc. (Correct/Total): 0.8830 (8830/10000) 
+Start evaluation on test dataset.
+Loading sentences from ./datasets/book_review/test.tsv
+There are 10000 sentence in total. We use 1 processes to inject knowledge into sentences.
+Progress of process 0: 0/10000
+The number of evaluation instances:  10000
+Confusion matrix:
+tensor([[4555,  746],
+        [ 555, 4144]])
+Report precision, recall, and f1:
+Label 0: 0.859, 0.891, 0.875
+Label 1: 0.882, 0.847, 0.864
+Acc. (Correct/Total): 0.8699 (8699/10000) 
+Epoch id: 4, Training steps: 100, Avg loss: 0.130
+Epoch id: 4, Training steps: 200, Avg loss: 0.065
+Epoch id: 4, Training steps: 300, Avg loss: 0.051
+Epoch id: 4, Training steps: 400, Avg loss: 0.040
+Epoch id: 4, Training steps: 500, Avg loss: 0.044
+Epoch id: 4, Training steps: 600, Avg loss: 0.046
+Start evaluation on dev dataset.
+Loading sentences from ./datasets/book_review/dev.tsv
+There are 10000 sentence in total. We use 1 processes to inject knowledge into sentences.
+Progress of process 0: 0/10000
+Label 0: 0.901, 0.867, 0.884
+Label 1: 0.863, 0.898, 0.880
+Acc. (Correct/Total): 0.8819 (8819/10000) 
+Epoch id: 5, Training steps: 100, Avg loss: 0.062
+Epoch id: 5, Training steps: 200, Avg loss: 0.038
+Epoch id: 5, Training steps: 300, Avg loss: 0.036
+Epoch id: 5, Training steps: 400, Avg loss: 0.028
+Epoch id: 5, Training steps: 500, Avg loss: 0.020
+Epoch id: 5, Training steps: 600, Avg loss: 0.026
+Start evaluation on dev dataset.
+Loading sentences from ./datasets/book_review/dev.tsv
+There are 10000 sentence in total. We use 1 processes to inject knowledge into sentences.
+Progress of process 0: 0/10000
+Label 0: 0.892, 0.891, 0.891
+Label 1: 0.882, 0.883, 0.883
+Acc. (Correct/Total): 0.8871 (8871/10000) 
+Start evaluation on test dataset.
+Loading sentences from ./datasets/book_review/test.tsv
+There are 10000 sentence in total. We use 1 processes to inject knowledge into sentences.
+Progress of process 0: 0/10000
+The number of evaluation instances:  10000
+Confusion matrix:
+tensor([[4419,  575],
+        [ 691, 4315]])
+Report precision, recall, and f1:
+Label 0: 0.885, 0.865, 0.875
+Label 1: 0.862, 0.882, 0.872
+Acc. (Correct/Total): 0.8734 (8734/10000) 
+Final evaluation on the test dataset.
+Loading sentences from ./datasets/book_review/test.tsv
+There are 10000 sentence in total. We use 1 processes to inject knowledge into sentences.
+Progress of process 0: 0/10000
+The number of evaluation instances:  10000
+Confusion matrix:
+tensor([[4419,  575],
+        [ 691, 4315]])
+Report precision, recall, and f1:
+Label 0: 0.885, 0.865, 0.875
+Label 1: 0.862, 0.882, 0.872
+Acc. (Correct/Total): 0.8734 (8734/10000) 
